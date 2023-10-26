@@ -5,11 +5,11 @@ import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
 
-public class TESTINGTEST {
+public class ObligTest {
 
         bool leapYear = new bool();
         @Test
-        public void TESTDivided4ButNot100isLeapYear(){
+        public void Divided4ButNot100isLeapYearTest(){
 
             assertTrue(leapYear.isLeapYear(4));   //This test is to check the first criteria and we use leapyears that fit this criteria
             assertTrue(leapYear.isLeapYear(40));
