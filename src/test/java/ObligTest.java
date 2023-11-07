@@ -9,7 +9,7 @@ public class ObligTest {
 
         bool leapYear = new bool();
         @Test
-        public void Divided4ButNot100isLeapYearTest(){
+        public void Divided4ButNot100isLeapYear(){
 
             assertTrue(leapYear.isLeapYear(4));   //This test is to check the first criteria and we use leapyears that fit this criteria
             assertTrue(leapYear.isLeapYear(40));
